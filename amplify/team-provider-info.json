@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dronemobile-dev-01327-authRole",
+      "UnauthRoleArn": "arn:aws:iam::315730708373:role/amplify-dronemobile-dev-01327-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::315730708373:role/amplify-dronemobile-dev-01327-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dronemobile-dev-01327-deployment",
+      "UnauthRoleName": "amplify-dronemobile-dev-01327-unauthRole",
+      "StackName": "amplify-dronemobile-dev-01327",
+      "StackId": "arn:aws:cloudformation:us-east-1:315730708373:stack/amplify-dronemobile-dev-01327/fcc54ae0-bb1c-11ed-a0c7-0e7522563421",
+      "AmplifyAppId": "d22qa6frwj10s9"
+    },
+    "categories": {
+      "auth": {
+        "dronemobile57100402": {}
+      }
+    }
+  }
+}

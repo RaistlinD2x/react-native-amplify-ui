@@ -1,0 +1,57 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dronemobile-dev-01327-authRole",
+      "UnauthRoleArn": "arn:aws:iam::315730708373:role/amplify-dronemobile-dev-01327-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::315730708373:role/amplify-dronemobile-dev-01327-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dronemobile-dev-01327-deployment",
+      "UnauthRoleName": "amplify-dronemobile-dev-01327-unauthRole",
+      "StackName": "amplify-dronemobile-dev-01327",
+      "StackId": "arn:aws:cloudformation:us-east-1:315730708373:stack/amplify-dronemobile-dev-01327/fcc54ae0-bb1c-11ed-a0c7-0e7522563421",
+      "AmplifyAppId": "d22qa6frwj10s9"
+    }
+  },
+  "auth": {
+    "dronemobile57100402": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL",
+          "NAME"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-dronemobile-dev-01327-deployment/amplify-cfn-templates/auth/dronemobile57100402-cloudformation-template.json",
+        "logicalId": "authdronemobile57100402"
+      },
+      "lastPushTimeStamp": "2023-03-05T06:37:00.537Z",
+      "output": {
+        "UserPoolId": "us-east-1_70dHYPwbQ",
+        "AppClientIDWeb": "272tlh7vtteu31hk97lfah04i8",
+        "AppClientID": "6hus8gl2ereafu91tcv3cml6si",
+        "IdentityPoolId": "us-east-1:a339f43d-e6cc-4af1-97a2-6d16b90ef6e0",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:315730708373:userpool/us-east-1_70dHYPwbQ",
+        "IdentityPoolName": "dronemobile57100402_identitypool_57100402__dev",
+        "UserPoolName": "dronemobile57100402_userpool_57100402"
+      },
+      "lastPushDirHash": "T/FlzDkN2fEQEnY6NDBu3JEAtPs="
+    }
+  }
+}
